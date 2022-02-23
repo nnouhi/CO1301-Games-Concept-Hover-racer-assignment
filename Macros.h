@@ -1,0 +1,166 @@
+#pragma once
+/**Macro definition**/
+/*For Camera*/
+#define CAMERA_STATE_FREE 2
+#define CAMERA_STATE_FIRST 1
+#define CAMERA_STATE_THIRD 3
+#define CAMERA_STATE_SURVEILLANCE 4
+
+#define MOVE_CAMERA_FORWARD 1
+#define MOVE_CAMERA_BACKWARDS 2
+#define MOVE_CAMERA_LEFT 3
+#define MOVE_CAMERA_RIGHT 4
+
+/**For walls**/
+/*Inner square*/
+#define FIRST_LINE_LIMIT 30
+#define SECOND_LINE_LIMIT 60
+#define THIRD_LINE_LIMIT 90
+#define FOURTH_LINE_LIMIT 120
+
+/*Outter square*/
+#define FIRST_OUTTERLINE_LIMIT 160
+#define SECOND_OUTTERLINE_LIMIT 209
+#define THIRD_OUTTERLINE_LIMIT 259
+#define FOURTH_OUTTERLINE_LIMIT 308
+
+/*For isles*/
+#define LEFT_CORRIDOR_LIMIT 3
+#define RIGHT_CORRIDOR_LIMIT 6
+
+#define FIRST_CROSS_ISLE 0
+#define SECOND_CROSS_ISLE 1
+#define THIRD_CROSS_ISLE 2
+#define FOURTH_CROSS_ISLE 3
+#define FIFTH_CROSS_ISLE 4
+#define SIXTH_CROSS_ISLE 5
+#define SEVENTH_CROSS_ISLE 6
+#define EIGHTH_CROSS_ISLE 7
+#define NINTH_CROSS_ISLE 8
+#define TENTH_CROSS_ISLE 9
+#define ELEVENTH_CROSS_ISLE 10
+#define TWELFTH_CROSS_ISLE 11
+#define THIRDTEENTH_CROSS_ISLE 12
+#define FOURTEENTH_CROSS_ISLE 13
+#define FIFTHEEN_CROSS_ISLE 14
+
+/*For tribunes*/
+#define FIRST_TRIBUNE 0
+#define SECOND_TRIBUNE 1
+#define THIRD_TRIBUNE 2
+#define FOURTH_TRIBUNE 3
+
+/*For water tanks*/
+#define FIRST_WATER_TANK 0
+#define SECOND_WATER_TANK 1
+#define THIRD_WATER_TANK 2
+#define FOURTH_WATER_TANK 3
+#define FIFTH_WATER_TANK 4
+#define SIXTH_WATER_TANK 5
+#define PISTE_WATER_TANK_LEFT1 6
+#define PISTE_WATER_TANK_LEFT2 7
+#define PISTE_WATER_TANK_LEFT3 8
+#define PISTE_WATER_TANK_RIGHT1 9
+#define PISTE_WATER_TANK_RIGHT2 10
+#define PISTE_WATER_TANK_RIGHT3 11
+
+
+/*For checkpoint's legs(right leg - left leg)*/
+#define FIRST_CHECKPOINT_LEFT 0
+#define FIRST_CHECKPOINT_RIGHT 1
+#define SECOND_CHECKPOINT_LEFT 2
+#define SECOND_CHECKPOINT_RIGHT 3
+#define THIRD_CHECKPOINT_LEFT 4
+#define THIRD_CHECKPOINT_RIGHT 5
+#define FOURTH_CHECKPOINT_LEFT 6
+#define FOURTH_CHECKPOINT_RIGHT 7
+#define FIFTH_CHECKPOINT_LEFT 8
+#define FIFTH_CHECKPOINT_RIGHT 9
+#define LAST_CHECKPOINT_LEFT 10
+#define LAST_CHECKPOINT_RIGHT 11
+
+/*For game states*/
+#define DEMO_STATE "Demo State"
+#define COUNTDOWN_STATE "Count-Down State"
+#define STAGE_0_COMPLETE_STATE "Stage 0 Complete State"
+#define STAGE_1_COMPLETE_STATE "Stage 1 Complete State"
+#define STAGE_2_COMPLETE_STATE "Stage 2 Complete State"
+#define STAGE_3_COMPLETE_STATE "Stage 3 Complete State"
+#define STAGE_4_COMPLETE_STATE "Stage 4 Complete State"
+#define STAGE_5_COMPLETE_STATE "Stage 5 Complete State"
+#define OVER_STATE "Over State"
+#define DEAD_STATE "Dead State"
+
+/*For Checkpoints*/
+#define FIRST_CHECKPOINT 0
+#define SECOND_CHECKPOINT 1
+#define THIRD_CHECKPOINT 2
+#define FOURTH_CHECKPOINT 3
+#define FIFTH_CHECKPOINT 4
+#define LAST_CHECKPOINT 5
+#define FIRST_CHECKPOINT_LAP2 6
+#define SECOND_CHECKPOINT_LAP2 7
+#define THIRD_CHECKPOINT_LAP2 8
+#define FOURTH_CHECKPOINT_LAP2 9
+#define FIFTH_CHECKPOINT_LAP2 10
+#define LAST_CHECKPOINT_LAP2 11
+
+/*For cornered isles*/
+#define FIRST_TURN_ISLE 0 
+#define SECOND_TURN_ISLE 1 
+#define THIRD_TURN_ISLE 2
+#define FOURTH_TURN_ISLE 3 
+
+/*For the boost facility*/
+#define BOOST_OFF 0
+#define BOOST_ON 1
+#define BOOST_OVERHEAT 2
+
+/*For the speed package feature*/
+#define ON_POWER_BOOST 1
+#define OFF_POWER_BOOST 0
+
+/*For npc states*/
+#define FIRST_WAYPOINT 0
+#define SECOND_WAYPOINT 1
+#define THIRD_WAYPOINT 2
+#define FOURTH_WAYPOINT 3
+#define FIFTH_WAYPOINT 4
+#define SIXTH_WAYPOINT 5
+#define SEVENTH_WAYPOINT 6
+#define EIGHTH_WAYPOINT 7
+#define NINTH_WAYPOINT 8
+#define TENTH_WAYPOINT 9
+#define ELEVENTH_WAYPOINT 10
+#define TWELFTH_WAYPOINT 11
+#define THIRTEENTH_WAYPOINT 12
+#define FOURTEENTH_WAYPOINT 13
+#define FIFTEENTH_WAYPOINT 14
+#define SIXTEENTH_WAYPOINT 15
+#define SEVENTEENTH_WAYPOINT 16
+#define LAST_WAYPOINT 17
+
+
+
+/*for hovers HP system*/
+#define SMALL_IMPACT 0.75f
+#define MEDIUM_IMPACT 0.50f
+#define BIG_IMPACT 0.25f
+
+/*For lap states*/
+#define NO_LAP 0
+#define LAP_1 1
+#define LAP_2 2
+
+/*For cross model state*/
+#define NO_CROSS 0
+#define CREATE_CROSS 1
+#define DELETE_CROSS 2
+
+/*For the position system*/
+#define NPC_IS_FIRST 0
+#define PLAYER_IS_FIRST 1
+
+
+
+
